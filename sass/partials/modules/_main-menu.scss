@@ -15,19 +15,20 @@
 }
 
 .main-menu {
-  background-color: $light-turquoise;
   font-family: $font-family-contrast;
-  height: 100vh;
+  height: 10rem;
 }
 
 .menu {
-  border-bottom: 1px solid #fff;
-  color: #FFF;
+  border-bottom: 1px solid $violet;
+  color: $violet;
+  font-size: 1.125rem;
+  font-weight: $font-weight-bold;
   left: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  top: 12rem;
+  top: 10rem;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 80%;

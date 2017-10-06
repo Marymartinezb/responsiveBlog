@@ -1,0 +1,21 @@
+.entry {
+  background-image: url(../img/bg-watercolour.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: $space-out-medium 0;
+
+  & > img {
+    border: 10px solid gray;
+    width: 100%;
+  }
+}
+
+.category {
+  color: $violet;
+  font-weight: 300;
+}
+
+.date {
+  color: $mid-gray;
+  font-weight: 300;
+}

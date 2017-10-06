@@ -1,0 +1,17 @@
+.author-wrap {
+  padding: $space-out-medium $space-out-small;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  text-align: center;
+}
+
+.author-name {
+  margin-top: $space-small;
+}
+
+.author-name,
+.author-prof {
+  color: $mid-turquoise;
+}
