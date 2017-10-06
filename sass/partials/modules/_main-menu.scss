@@ -1,0 +1,40 @@
+.bg-menu {
+  background-image: url('../img/menu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+  height: 80px; 
+  margin: 1rem;
+  width: 80px;
+
+  p {
+    color: #fff;
+    font-weight: $font-weight-bold;
+    padding: 15% 25%;
+  }
+}
+
+.main-menu {
+  background-color: $light-turquoise;
+  font-family: $font-family-contrast;
+  height: 100vh;
+}
+
+.menu {
+  border-bottom: 1px solid #fff;
+  color: #FFF;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 12rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+
+  li {
+      list-style-image: none;
+      list-style-type: none;
+      padding-bottom: 1rem;
+  }
+}
