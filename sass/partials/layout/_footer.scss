@@ -1,13 +1,26 @@
-.site-footer {
-    @include micro-clearfix;
-    background: url(../img/bg-footer.jpg) repeat-x;
+.top-footer,
+.bottom-footer {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 $space-small;
+  text-align: center;
 }
 
-.contact-footer {
-    padding: $space-medium 0;
-    background-color: #000; 
+.top-footer {
+  background-color: $turquoise;
+  
+  ul {
+    padding: 0;
+  }
 
-    @include query(700px) {
-		margin-top: -55px;
-    }
+  li {
+    border-bottom: 1px solid #fff;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 1rem 0;
+  }
+}
+
+.bottom-footer {
+  background-color: #000;
 }

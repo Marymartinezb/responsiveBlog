@@ -1,0 +1,15 @@
+.related {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.related-art {
+  margin: $space-out-small 0;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
+}

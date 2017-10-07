@@ -8,7 +8,7 @@
   width: 80px;
 
   p {
-    color: #fff;
+    color: $violet;
     font-weight: $font-weight-bold;
     padding: 15% 25%;
   }
@@ -20,10 +20,9 @@
 }
 
 .menu {
-  border-bottom: 1px solid $violet;
-  color: $violet;
+  border-bottom: 1px solid #fff;
+  color: #fff;
   font-size: 1.125rem;
-  font-weight: $font-weight-bold;
   left: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);

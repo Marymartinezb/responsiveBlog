@@ -74,8 +74,9 @@ h4 {
 
 .h-page {
   color: #fff;
-  text-align: center;
-  padding: 40% 0; }
+  margin: 0 auto;
+  padding: 30% 0;
+  width: 60%; }
 
 a {
   background-color: transparent;
@@ -181,7 +182,7 @@ svg:not(:root) {
   float: left; }
   .logo img {
     display: block;
-    margin: 1.5rem 0.5rem;
+    margin: 2rem 0.5rem;
     width: 100px; }
 
 .bg-menu {
@@ -193,7 +194,7 @@ svg:not(:root) {
   margin: 1rem;
   width: 80px; }
   .bg-menu p {
-    color: #fff;
+    color: #CC6699;
     font-weight: bold;
     padding: 15% 25%; }
 
@@ -202,10 +203,9 @@ svg:not(:root) {
   height: 10rem; }
 
 .menu {
-  border-bottom: 1px solid #CC6699;
-  color: #CC6699;
+  border-bottom: 1px solid #fff;
+  color: #fff;
   font-size: 1.125rem;
-  font-weight: bold;
   left: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
@@ -274,8 +274,20 @@ svg:not(:root) {
 .author-prof {
   color: #81C5C3; }
 
+.related {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.related-art {
+  margin: 1.125rem 0;
+  text-align: center; }
+  .related-art img {
+    width: 100%; }
+
 .site-header {
-  background-color: #F9E9A5;
+  background-color: #CC6699;
   padding-bottom: 6.75rem;
   position: relative;
   width: 100%;
@@ -302,19 +314,24 @@ svg:not(:root) {
     .section-wrap {
       padding: 2.25rem; } }
 
-.site-footer {
-  background: url(../img/bg-footer.jpg) repeat-x; }
-  .site-footer:before, .site-footer:after {
-    content: " ";
-    display: table; }
-  .site-footer:after, .site-footer:after {
-    clear: both; }
+.top-footer,
+.bottom-footer {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 1.125rem;
+  text-align: center; }
 
-.contact-footer {
-  padding: 2.25rem 0;
+.top-footer {
+  background-color: #42BAB6; }
+  .top-footer ul {
+    padding: 0; }
+  .top-footer li {
+    border-bottom: 1px solid #fff;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 1rem 0; }
+
+.bottom-footer {
   background-color: #000; }
-  @media only screen and (min-width: 700px) {
-    .contact-footer {
-      margin-top: -55px; } }
 
 /*# sourceMappingURL=style.css.map */
