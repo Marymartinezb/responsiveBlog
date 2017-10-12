@@ -1,13 +1,8 @@
 .entry {
-  background-image: url(../img/bg-watercolour.jpg);
+  background-image: url(../img/bg-watercolour.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: $space-out-medium 0;
-
-  & > img {
-    border: 10px solid gray;
-    width: 100%;
-  }
 }
 
 .category {

@@ -10,10 +10,12 @@
   </head>
   <body>
     <header class="site-header">
-      <a href="#" class="logo"><img src="img/logo.png" alt="Logo"></a>
-      <div id="imgMenu" class="bg-menu">
-        <p>Menu</p>
-      </div>      
+      <div class="header-container">
+        <a href="#" class="logo"><img src="img/logo.png" alt="Logo"></a>
+        <div id="imgMenu" class="bg-menu">
+          <p>Menu</p>
+        </div>
+      </div>
       <nav id="mainMenu" class="main-menu hidden">
         <ul class="menu">
           <li>About</li>
@@ -27,8 +29,10 @@
       <section class="group">
         <div class="headline">
           <h1 class="h-page">Talking About Art</h1>
-        </div>   
-        <img class="ads" src="img/adblock-ads.jpg" alt="ADS">
+        </div>
+        <div class="ads-container">
+          <img src="img/curso-gratis.png" alt="ADS curso gratis">
+        </div>
       </section>
       <!-- Entry -->
       <section class="group entry">
@@ -57,37 +61,41 @@
           <h3 class="author-prof">Author's Profession</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat mollitia sunt facilis quia dolore ratione doloribus temporibus adipisci doloremque! Minus sit eaque amet doloribus cum ut, quis ullam. Dolore, repellat minima dicta autem facere reprehenderit voluptatibus doloribus sit, voluptatum vitae nemo itaque, ex porro delectus tempore. Ipsa, iure fugiat!</p>
         </div>
-        <img class="ads" src="img/banner-ads.png" alt="ADS">
+        <div class="ads-container">
+          <img src="img/banner-ads.png" alt="ADS">
+        </div>
       </section>
       <!-- Related posts -->
-      <section class="group related">
+      <section class="group">
         <h2>Related articles</h2>
-        <article class="related-art">
-          <a>
-            <img src="img/oleo-article.jpg" alt="Oleo paint related to the article">
-            <h3>Oleo Technique</h3>
-            <h4 class="category">Paint Techniques</h4>
-          </a>
-        </article>
-        <article class="related-art">
-          <a>
-            <img src="img/acrylic-article.jpg" alt="Acrilic paint related to the article">
-            <h3>Acrilic Technique</h3>
-            <h4 class="category">Paint Techniques</h4>
-          </a>
-        </article>
+        <div class="related">
+          <article class="related-art">
+            <a>
+              <img src="img/oleo-article.jpg" alt="Oleo paint related to the article">
+              <h3>Oleo Technique</h3>
+              <h4 class="category">Paint Techniques</h4>
+            </a>
+          </article>
+          <article class="related-art">
+            <a>
+              <img src="img/acrylic-article.jpg" alt="Acrilic paint related to the article">
+              <h3>Acrilic Technique</h3>
+              <h4 class="category">Paint Techniques</h4>
+            </a>
+          </article>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <section>
-      <div class="top-footer group">
-        <ul>
+      <div class="top-footer l-group">
+        <ul class="group">
           <li>About</li>
           <li>Techniques</li>
           <li>Articles</li>
         </ul>
       </div>
-      <div class="bottom-footer group">
+      <div class="bottom-footer l-group">
         <p>Copyright ©2017</p>
         <p>Mary Martínez Bonilla. All Rights Reserved.</p>
       </div>

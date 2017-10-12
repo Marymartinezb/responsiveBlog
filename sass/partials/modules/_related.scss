@@ -3,6 +3,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: $space-out-medium;
+
+  @include query(450px){
+    flex-direction: row;
+  }
 }
 
 .related-art {
@@ -10,6 +15,20 @@
   text-align: center;
 
   img {
-    width: 100%;
+    width: 90%;
+    padding-bottom: $space-base; 
+
+    @include query(500px){
+      width: 100%;
+    }
+  }
+
+  @include query(450px){
+    margin: $space-out-small;
+  }
+
+  @include query(500px){
+    margin: $space-out-small;
+    width: 40%;
   }
 }
