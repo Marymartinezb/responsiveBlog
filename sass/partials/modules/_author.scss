@@ -3,8 +3,14 @@
   position: relative;
   top: 0;
   left: 0;
-  overflow: scroll;
   text-align: center;
+
+  p {
+    @include query(1000px){
+      width: 80%;
+      margin: 1rem auto;
+    }
+  }
 }
 
 .author-name {

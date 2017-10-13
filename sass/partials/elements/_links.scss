@@ -21,6 +21,7 @@ a:hover {
 a:hover, 
 a:focus {
     border: 0;
+    font-weight: $font-weight-bold;
     text-decoration: none;
 }
 

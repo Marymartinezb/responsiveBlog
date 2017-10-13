@@ -94,6 +94,7 @@ a:hover {
 a:hover,
 a:focus {
   border: 0;
+  font-weight: bold;
   text-decoration: none; }
 
 .white-link {
@@ -193,6 +194,7 @@ svg:not(:root) {
   background-image: url("../img/menu.png");
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
   float: right;
   height: 80px;
   margin: 1rem;
@@ -208,7 +210,6 @@ svg:not(:root) {
 
 .menu {
   border-bottom: 1px solid #fff;
-  color: #fff;
   font-size: 1.125rem;
   left: 50%;
   position: absolute;
@@ -222,6 +223,9 @@ svg:not(:root) {
     list-style-image: none;
     list-style-type: none;
     padding-bottom: 1rem; }
+  .menu a {
+    color: #fff;
+    border: none; }
 
 .headline {
   background-image: url(../img/headline.png);
@@ -265,8 +269,11 @@ svg:not(:root) {
   position: relative;
   top: 0;
   left: 0;
-  overflow: scroll;
   text-align: center; }
+  @media only screen and (min-width: 1000px) {
+    .author-wrap p {
+      width: 80%;
+      margin: 1rem auto; } }
 
 .author-name {
   margin-top: 1.125rem; }
@@ -344,12 +351,18 @@ svg:not(:root) {
 .top-footer {
   background-color: #42BAB6; }
   .top-footer ul {
-    padding: 0; }
+    padding: 0;
+    width: 80%; }
   .top-footer li {
     border-bottom: 1px solid #fff;
     list-style-image: none;
     list-style-type: none;
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 80%; }
+  .top-footer a {
+    color: #fff;
+    border: none; }
 
 .bottom-footer {
   background-color: #000; }
