@@ -81,7 +81,7 @@ h4 {
 a {
   background-color: transparent;
   border-bottom: 2px solid #23b1a6;
-  color: #494949;
+  color: #23b1a6;
   -webkit-text-decoration-skip: objects;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -191,7 +191,7 @@ svg:not(:root) {
     width: 100px; }
 
 .bg-menu {
-  background-image: url("../img/menu.png");
+  background-image: url("../img/menu.svg");
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -228,7 +228,7 @@ svg:not(:root) {
     border: none; }
 
 .headline {
-  background-image: url(../img/headline.png);
+  background-image: url(../img/headline.svg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
@@ -252,7 +252,8 @@ svg:not(:root) {
 
 .entry {
   background-image: url(../img/bg-watercolour.png);
-  background-size: cover;
+  background-position: top center;
+  background-size: 1000px auto;
   background-repeat: no-repeat;
   margin: 2.25rem 0; }
 
